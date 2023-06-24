@@ -126,4 +126,11 @@ body::after {
     display: flex;
     flex-direction: column;
   }
+  body::after {
+    content: "";
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    clip-path: circle(40% at bottom 70%);
 }
