@@ -133,4 +133,5 @@ body::after {
     width: 100%;
     position: absolute;
     clip-path: circle(40% at bottom 70%);
+  }
 }
